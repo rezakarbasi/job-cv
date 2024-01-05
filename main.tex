@@ -31,7 +31,7 @@
 
 % serif
 % \usepackage{CormorantGaramond}
-% \usepackage{charter}
+\usepackage{charter}
 
 
 \pagestyle{fancy}
@@ -55,8 +55,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-4pt}\scshape\raggedright\large\color{MidnightBlue}
+}{}{0em}{}[\color{MidnightBlue}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -79,6 +79,16 @@
     \end{tabular*}\vspace{-7pt}
 }
 
+\newcommand{\resumeSubheadingReza}[5]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\ \\
+    \end{tabular*}\vspace{-7pt}
+    #5
+}
+
+\newcommand{\rezaLink}[2]{\href{#1}{\color{blue} #2}}
 
 \newcommand{\resumeSubSubheading}[2]{
     \vspace{-2pt}\item
@@ -137,23 +147,24 @@
     \small
     % \faMobile \hspace{.5pt} \href{tel:989360851787}{+98 936 085 1787}
     % $|$
-    \faAt \hspace{.5pt} \href{mailto:arzkarbasi@gmail.com}{arzkarbasi@gmail.com}
+    \faAt \hspace{.5pt} \rezaLink{mailto:arzkarbasi@gmail.com}{arzkarbasi@gmail.com}
     $|$
-    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/reza-karbasi-270791133/}{LinkedIn}
+    \faLinkedinSquare \hspace{.5pt} \rezaLink{https://www.linkedin.com/in/reza-karbasi-270791133/}{LinkedIn}
     $|$
-    \faGithub \hspace{.5pt} \href{https://github.com/rezakarbasi}{Reza Karbasi}
+    \faGithub \hspace{.5pt} \rezaLink{https://github.com/rezakarbasi}{Reza Karbasi}
     $|$
-    \faGlobe \hspace{.5pt} \href{https://rezakarbasi.github.io/}{Portfolio}
+    \faGlobe \hspace{.5pt} \rezaLink{https://rezakarbasi.github.io/}{Portfolio}
     $|$
-    \faMapMarker \hspace{.5pt} \href{https://maps.app.goo.gl/7HxDvd1xCQvbMscv9}{Tehran, Iran}
+    \faMapMarker \hspace{.5pt} {Tehran, Iran}
 \end{center}
 
 
+\input{./summary.tex}
 \input{./work.tex}
 \input{./skills.tex}
 \input{./projects.tex}
-\input{./awards.tex}
 \input{./education.tex}
+\input{./awards.tex}
 
 
 
