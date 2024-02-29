@@ -1,0 +1,148 @@
+::: center
+**[Reza Karbasi]{.smallcaps}**\
+**Robotic Software Engineer**\
+[ arzkarbasi@gmail.com](mailto:arzkarbasi@gmail.com) $|$ [
+LinkedIn](https://www.linkedin.com/in/reza-karbasi-270791133/) $|$ [
+Reza Karbasi](https://github.com/rezakarbasi) $|$ [
+Portfolio](https://rezakarbasi.github.io/) $|$ Tajrish Sq., Tehran, Iran
+:::
+
+# Summary
+
+-   Robotics Software Engineer with 4+ years of experience in developing
+    software and designing AI solutions for real-world problems. Holds a
+    master's degree in AI and Robotics, and boasts proficiency in
+    programming with Python and C. Experienced in collaborating with
+    diverse teams, both academic and international.
+
+# Work Experience
+
+-   ---------------------------------- ----------------------------------------------
+      **Automotive Software Engineer**     *[ SoftwareMotion](https://sw-motion.tech/)*
+      *01/2023 - Now*                                                   *Remote, China*
+                                         
+      ---------------------------------- ----------------------------------------------
+
+    -   Implemented a **CI/CD** pipeline in **Gitlab** with **GTest**
+        for the Autosar-based codebase, reducing on-field testing
+        through automated unit and integration tests by 30%
+
+    -   Developed a **PyQT** visualization tool for AEB and ACC systems,
+        integrating BEV plots to drastically reduce debugging time.
+        Processed MF4 and CAN signals (BLF, DBC) for enhanced vehicle
+        issue diagnosis.
+
+    -   Evaluated and integrated advanced path planning solutions, such
+        as lattice-based and [
+        Apollo](https://github.com/ApolloAuto/apollo)'s EM planner.
+        Also, developed and implemented obstacle avoidance algorithms
+        with **DP** and **A\*** techniques, validated through a custom
+        Python-based simulator.
+
+-   ------------------------------- ----------------------------------------
+      **Machine Learning Engineer**     *[ Hara AI Company](https://hara.ai/)*
+      *10/2021 - 01/2023*                                       *Tehran, Iran*
+                                      
+      ------------------------------- ----------------------------------------
+
+    -   Automated audio file categorization by gender and age using
+        Google's [
+        YamNet](https://www.tensorflow.org/hub/tutorials/yamnet) (in the
+        TensorFlow framework) as the backbone, fine-tuning the model
+        with the company's labeled data. Developed a custom metric to
+        accurately evaluate classification accuracy, with equal emphasis
+        on precision and recall.
+
+    -   Building a filter for detecting operator interruptions and poor
+        voice quality using VAD algorithms.
+
+    -   Deployed **MLflow** to facilitate experiment tracking.
+
+    -   Conducted an in-depth assessment and visualization of the
+        company's Speech-to-Text (**STT**) models under varied
+        real-world conditions (such as noise and reverbation) to
+        pinpoint vulnerabilities.
+
+-   ------------------------ ------------------------------------------------------
+      **Robotic Researcher**     *[ KN2C Robotic Lab](https://aras.kntu.ac.ir/kn2c/)*
+      *05/2015 - 09/2017*                                              *Tehran, Iran*
+                               
+      ------------------------ ------------------------------------------------------
+
+    -   Enhanced robot performance in KN2C's SSL team by designing,
+        soldering, and maintaining Xmega and ST processor boards for
+        motor control and precise **PID** calibration.
+
+    -   Enhanced ball detection accuracy by implementing a **Kalman
+        Filter** with the Armadillo library in **C++**.
+
+-   ------------------------------ ----------------------------------------------------------------------------
+      **Embedded System Engineer**     *[ Raiwan](https://www.linkedin.com/company/raiwan/?originalSubdomain=ir)*
+      *12/2017 - 06/2019*                                                                          *Tehran, Iran*
+                                     
+      ------------------------------ ----------------------------------------------------------------------------
+
+    Designed an *Inner Hospital Communication System*, incorporating
+    STM32 and ESP32 board design and programming, and established
+    communication using RS485 devices. Custom-machined the device frame
+    with CNC to match project specifications.
+
+-   ------------------------------ ----------------
+      **Designer of a Trader Bot**              *QDM*
+      *04/2019 - 01/2020*              *Tehran, Iran*
+                                     
+      ------------------------------ ----------------
+
+    Developed a Metatrader trading bot using a technical strategy,
+    enhanced by a **Deep Q Network** in **PyTorch**. Leveraged a socket
+    connection for real-time data and analysis of historical data from
+    2007-2019 in Metatrader. Documented a version on this [ Medium
+    blog](https://medium.com/@a.rz.karbasi/enhancing-trading-performance-through-deep-q-network-hyper-parameter-tuning-7475e2f11a06)
+    and this [ Github
+    repo](https://github.com/rezakarbasi/RL-agent-trader).
+
+# Notable Projects
+
+-   Implemented an image captioning application using **Resnet18** and
+    **LSTM** models in **PyTorch**.
+
+-   Localized Anki robot in a **Gazebo** environment using **particle
+    filter** and **EKF** algorithms.
+
+-   Implemented an Adaptive Neuro-Fuzzy Inference System (**ANFIS**)
+    algorithm in **Pytorch** for EEG signal classification, facilitating
+    video game control through brain activity.
+
+-   Developed a gym environment with a Deep RL **A3C** agent to optimize
+    station power settings and maximize coverage area while minimizing
+    conflicts.
+
+# Honors & Certificates
+
+::: itemize
+**Iran Open RoboCup:** Ranked 5th in 2016's Small Sized League (SSL)\
+**Snake League:** Ranked 3rd in 2019's Snake League in Nasir Cup
+:::
+
+# Skills
+
+::: itemize
+**Programming** C++(Advanced), Python(Advanced), C(Advanced),
+Matlab(familiar)\
+
+**Frameworks** Pytorch(Advanced), Tensorflow(Advanced),
+Mlflow(Intermediate), Simulink(familiar), ROS(familiar)\
+
+**Libraries** Numpy, Pandas, Matplotlib, OpenCV\
+
+**Hardware** Keil, Stm32Cube, ARM, XMega, Arduino, Altium, Soldering\
+
+**Misc** Git, Linux, Docker, Software Testing, GTest\
+:::
+
+# Education
+
+  ------------------------------------ -- ------------------------ -- -------------- -----------
+  **MSc. in AI and Robotics**             Tehran University           GPA: 18.8/20     2019-2022
+  **BSc. in Electrical Engineering**      Khaje Nasir University      GPA: 17.4/20     2014-2019
+  ------------------------------------ -- ------------------------ -- -------------- -----------
