@@ -34,22 +34,31 @@
         Processed MF4 and CAN signals (BLF, DBC) to expedite vehicle
         issue diagnosis.
 
+    -   Evaluated and integrated advanced path planning solutions, such
+        as lattice-based and [
+        Apollo](https://github.com/ApolloAuto/apollo)'s EM planner.
+        Also, developed obstacle avoidance algorithms with **DP** and
+        **A\*** techniques, validated through a custom Python-based
+        simulator.
+
 -   ------------------------------- ----------------------------------------
       **Machine Learning Engineer**     *[ Hara AI Company](https://hara.ai/)*
       *06/2022 - 03/2023*                                       *Tehran, Iran*
                                       
       ------------------------------- ----------------------------------------
 
-    -   Automated audio file categorization by gender and age using
-        Google's [
-        YamNet](https://www.tensorflow.org/hub/tutorials/yamnet) (in the
-        TensorFlow framework) as the backbone, fine-tuning the model
-        with the company's labeled data. Developed a custom metric to
-        accurately evaluate classification accuracy, with equal emphasis
-        on precision and recall.
+    -   Leveraged Google's [
+        YamNet](https://www.tensorflow.org/hub/tutorials/yamnet) within
+        the TensorFlow framework to automate the categorization of audio
+        files by gender and age, fine-tuning the model on the company's
+        labeled dataset. Introduced a custom loss function that balances
+        precision and recall, achieving an average precision of 0.55 and
+        an average recall of 0.51 across various categories.
 
     -   Building a filter for detecting operator interruptions and poor
         voice quality using VAD algorithms.
+
+    -   Deployed **MLflow** to facilitate experiment tracking.
 
     -   Conducted an in-depth assessment and visualization of the
         company's Speech-to-Text (**STT**) models under varied
@@ -62,10 +71,10 @@
                             
       --------------------- -------------------------------------
 
-    Leading a team, we developed a microservice-based platform for
-    aerial vehicle monitoring, focusing on a graph-based path planning
-    module. By implementing advanced algorithms like Dynamic Programming
-    and A\*, we enhanced navigation precision and system responsiveness,
+    Leading a team, we developed a microservice-based platform for a
+    vehicle monitoring, focusing on a graph-based path planning module.
+    By implementing advanced algorithms like Dynamic Programming and
+    A\*, we enhanced navigation precision and system responsiveness,
     achieving a tenfold increase in processing speed over the initial
     version.
 
@@ -100,9 +109,12 @@
                                      
       ------------------------------ ----------------------------------------------------------------------------
 
-    -   Developed **Inner Hospital Communication** boards using **STM32
-        F1** microcontrollers, enabling efficient nurse and patient
-        calls, deployed in 2+ hospitals.
+    -   Developed **Inner Hospital Communication** boards with **STM32
+        F1** microcontrollers, incorporating audio signal transportation
+        via **RS485** protocol, and implemented audio recording and
+        playback on digital boards. Enabled efficient real-time
+        communication between nurses and patients, successfully deployed
+        in over 2 hospitals.
 
     -   Designed **Taxi Payment Device** frame via CNC and worked on the
         device's **ESP32** integration.
@@ -241,12 +253,9 @@ REST API, Confluence, Jira, Django\
 # Education
 
 -   ----------------------------------------------------------------- -------------------------
-      **University of Tehran (It has the best ranking in Iran)**                     Tehran, Iran
+      **University of Tehran**                                                       Tehran, Iran
       *MS in Artificial Intelligence and Robotics; **GPA: 18.86/20***     *Sep. 2019 - Jan. 2022*
       ----------------------------------------------------------------- -------------------------
-
-    -    Notable Courses: Advanced Robotics, Deep Neural Network,
-        Machine Vision, Reinforcement Learning
 
     -    Thesis: [ An earthquake early warning system using smartphones
         as sensors](https://github.com/rezakarbasi/EEW_simulator)
@@ -256,18 +265,22 @@ REST API, Confluence, Jira, Django\
         Hashemi](https://ece.ut.ac.ir/en/~rhashemi), [ Dr. Ali
         Moradi](https://profile.ut.ac.ir/en/~asmoradi)
 
+    -    Notable Courses: Deep Neural Network in Speech signals and
+        Machine Vision, Reinforcement Learning, Big Data, Data Analysis,
+        Artificial Intelligence
+
 -   --------------------------------------------------------------------------------- -------------------------
-      **K. N. Toosi University of Technology(top 5 universities in Iran)**                           Tehran, Iran
+      **K. N. Toosi University of Technology**                                                       Tehran, Iran
       *BS in Electrical Engineering (major in Control Engineering); **GPA: 17.4/20***     *Sep. 2014 - Jan. 2019*
       --------------------------------------------------------------------------------- -------------------------
-
-    -    Notable Courses: Pattern Recognition, Modern Control, Digital
-        Control, Advanced Programming(OO)
 
     -    Thesis: Fault detection in gas turbine
 
     -    Supervisor : [ Dr. Mahdi
         Aliyari](https://wp.kntu.ac.ir/aliyari/)
+
+    -    Notable Courses: Pattern Recognition, Digital Control, Signal
+        and Systems
 
 # References
 
