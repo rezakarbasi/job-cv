@@ -29,3 +29,9 @@ pdflatex main.tex
 
 * LinkedIn: [@arasgungore](https://www.linkedin.com/in/arasgungore)
 * GitHub: [@arasgungore](https://github.com/arasgungore)
+
+
+## 3 Commands to generate output file
+- pdflatex main.tex
+- pandoc main.tex -o out.txt
+- pandoc main.tex -o out.docx
