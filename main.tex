@@ -20,7 +20,8 @@
 \usepackage{hyphenat}
 \usepackage{fontawesome}
 \input{glyphtounicode}
-\usepackage{graphicx}
+% \usepackage{graphicx}
+\usepackage{tikz}
 
 %---------- FONT OPTIONS ----------
 % sans-serif
@@ -63,6 +64,14 @@
 
 %-------------------------
 % Custom commands
+
+
+\newcommand{\roundpic}[4][]{
+  \tikz\node [circle, minimum width = #2,
+    path picture = {
+      \node [#1] at (path picture bounding box.center) {
+        \includegraphics[width=#3]{#4}};
+    }] {};}
 
 \newcommand{\resumeItem}[1]{
   \item\small{
@@ -141,15 +150,15 @@
 \begin{document}
 
 
-% \input{./header-pic.tex}
-\input{./header+pic.tex}
+\input{./header-pic.tex}
+% \input{./header+pic.tex}
 \input{./summary.tex}
 \input{./work.tex}
 \input{./projects.tex}
-\input{./awards.tex}
-\input{./skills.tex}
 \input{./education.tex}
-\input{./references.tex}
+\input{./skills.tex}
+\input{./awards.tex}
+% \input{./references.tex}
 
 
 
