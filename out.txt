@@ -1,38 +1,74 @@
 ::: center
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **[Reza Karbasi]{.smallcaps}**
-  **Robotic AI Engineer**
-  [ arzkarbasi@gmail.com](mailto:arzkarbasi@gmail.com) $|$ [ LinkedIn](https://www.linkedin.com/in/reza-karbasi-270791133/) $|$ [ Reza Karbasi](https://github.com/rezakarbasi) $|$ [ Portfolio](https://rezakarbasi.github.io/) $|$ Tehran, Iran
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-![image](picture.jpg){width="1.7cm"}
+**[Reza Karbasi]{.smallcaps}**\
+**Robotic AI Researcher**\
+[ arzkarbasi@gmail.com](mailto:arzkarbasi@gmail.com) $|$ [
+LinkedIn](https://www.linkedin.com/in/reza-karbasi-270791133/) $|$ [
+Reza Karbasi](https://github.com/rezakarbasi) $|$ [
+Portfolio](https://rezakarbasi.github.io/)
 :::
 
-# Summary
+# Education
 
--   AI Software Engineer with 4+ years experience in autonomous driving
-    perception. Master's in AI and Robotics. Skilled in C++, Python,
-    ROS, PyTorch. Experienced in computer vision, object detection,
-    multi-object tracking, and sensor fusion. Contributed to open source
-    like [ DeepFace](https://github.com/serengil/deepface). Adept at
-    collaborating in multidisciplinary teams.
+-   ----------------------------------------------------------------- -------------------
+      **University of Tehran**                                            08/2019 - 01/2022
+      *MS in Artificial Intelligence and Robotics; **GPA: 18.86/20***        *Tehran, Iran*
+      ----------------------------------------------------------------- -------------------
 
-# Work Experience
+    -    Thesis: [ An earthquake early warning system using smartphones
+        as sensors](https://github.com/rezakarbasi/EEW_simulator)
 
--   ---------------------------------- ----------------------------------------------
-      **Automotive Software Engineer**     *[ SoftwareMotion](https://sw-motion.tech/)*
-      *04/2023 - Now*                                                   *Remote, China*
-                                         
-      ---------------------------------- ----------------------------------------------
+    -    Supervisors: [ Prof. Hadi
+        Moradi](https://ece.ut.ac.ir/en/~moradih), [ Dr. Mahmoud Reza
+        Hashemi](https://ece.ut.ac.ir/en/~rhashemi), [ Dr. Ali
+        Moradi](https://profile.ut.ac.ir/en/~asmoradi)
 
-    -   Made a **CI/CD** pipeline in **Gitlab** with **GTest** for the
-        Autosar-based codebase, reducing on-field testing through
-        automated unit and integration tests by 30%
+-   -------------------------------------------------- -------------------
+      **K. N. Toosi University of Technology**             08/2014 - 01/2019
+      *BS in Electrical Engineering; **GPA: 17.4/20***        *Tehran, Iran*
+      -------------------------------------------------- -------------------
 
-    -   Built a **PyQT** visualization software for AEB and ACC systems,
-        integrating BEV plots to drastically reduce debugging time.
-        Processed MF4 and CAN signals (BLF, DBC) to expedite vehicle
-        issue diagnosis.
+    -    Thesis: Fault detection in gas turbine
+
+    -    Supervisor : [ Dr. Mahdi
+        Aliyari](https://wp.kntu.ac.ir/aliyari/)
+
+# Publication
+
+::: itemize
+*InProgress* **Karbasi, R.**, Rahimi, M., Vahabi, H. (2024). ECG paper
+record digitization to detect different peaks of the signal.\
+:::
+
+# Experience
+
+-   ---------------------------------------- ------------------
+      **Machine Learning Engineer**               *05/2023 - Now*
+      *[ PresentID](https://presentid.com/)*     *Remote, France*
+                                               
+      ---------------------------------------- ------------------
+
+    -   Implemented car tracking in surveillance cameras, fine-tuned
+        **Ultralytics** to accurately identify different lanes and
+        vehicles.
+
+    -   Enhanced an OCR system using **EasyOCR** to detect and scan
+        official documents. Integrated **pytest** for robust testing,
+        utilized **MLflow** for experiment tracking, and synthesized
+        datasets for model fine-tuning.
+
+    -   Automated audio file categorization by gender and age using
+        Google's [
+        YamNet](https://www.tensorflow.org/hub/tutorials/yamnet) (in the
+        TensorFlow framework) as the backbone, fine-tuning the model
+        with the company's labeled data. Developed a custom metric to
+        accurately evaluate classification accuracy, with equal emphasis
+        on precision and recall.
+
+-   ---------------------------------------------- ---------------------
+      **Automotive Software Engineer**                 *05/2022 - 05/2023*
+      *[ SoftwareMotion](https://sw-motion.tech/)*         *Remote, China*
+                                                     
+      ---------------------------------------------- ---------------------
 
     -   Evaluated and integrated advanced path planning solutions, such
         as lattice-based and [
@@ -41,48 +77,49 @@
         **A\*** techniques, validated through a custom Python-based
         simulator.
 
--   ------------------------------- ----------------------------------------
-      **Machine Learning Engineer**     *[ Hara AI Company](https://hara.ai/)*
-      *06/2022 - 03/2023*                                       *Tehran, Iran*
-                                      
-      ------------------------------- ----------------------------------------
+    -   Made a **CI/CD** pipeline in **Gitlab** with **GTest** for the
+        Autosar-based codebase(**C/C++**), reducing on-field testing
+        through automated unit and integration tests by 30%
 
-    -   Leveraged Google's [
-        YamNet](https://www.tensorflow.org/hub/tutorials/yamnet) within
-        the TensorFlow framework to automate the categorization of audio
-        files by gender and age, fine-tuning the model on the company's
-        labeled dataset. Introduced a custom loss function that balances
-        precision and recall, achieving an average precision of 0.55 and
-        an average recall of 0.51 across various categories.
+    -   Built a **PyQT** visualization software for AEB and ACC systems,
+        integrating BEV plots to drastically reduce debugging time.
+        Processed MF4 and CAN signals (BLF, DBC) to expedite vehicle
+        issue diagnosis.
 
-    -   Building a filter for detecting operator interruptions and poor
-        voice quality using VAD algorithms.
+-   ------------------------------------------------------ ---------------------
+      **Robotic Researcher**                                   *05/2015 - 09/2017*
+      *[ KN2C Robotic Lab](https://aras.kntu.ac.ir/kn2c/)*          *Tehran, Iran*
+                                                             
+      ------------------------------------------------------ ---------------------
 
-    -   Deployed **MLflow** to facilitate experiment tracking.
+    -   Led KN2C's SSL electronics team, improving robot performance by
+        designing, soldering, and maintaining Xmega and ST processor
+        boards for motor control and **PID** calibration. Collaborated
+        with mechanical and software teams to integrate system
+        enhancements.
 
-    -   Conducted an in-depth assessment and visualization of the
-        company's Speech-to-Text (**STT**) models under varied
-        real-world conditions (such as noise and reverbation) to
-        pinpoint vulnerabilities.
+    -   Boosted ball detection precision by implementing a **Kalman
+        Filter** in **C++**, leveraging the Armadillo library.
 
--   --------------------- -------------------------------------
-      **AI Engineer**         *Iran's National Elites Foundation*
-      *10/2022 - 12/2023*                          *Tehran, Iran*
-                            
-      --------------------- -------------------------------------
+    -   Crafted a real-time GUI in C# using Visual Studio for
+        simultaneous condition monitoring of all robots, enhancing
+        strategic decision-making.
 
-    Leading a team, we developed a microservice-based platform for a
-    vehicle monitoring, focusing on a graph-based path planning module.
-    By implementing advanced algorithms like Dynamic Programming and
-    A\*, we enhanced navigation precision and system responsiveness,
-    achieving a tenfold increase in processing speed over the initial
-    version.
+-   ---------------------------------------------------------- ---------------------
+      **Instructor**                                               *06/2021 - 09/2021*
+      *[ Aras Academy](https://aras.kntu.ac.ir/aras-academy/)*          *Tehran, Iran*
+                                                                 
+      ---------------------------------------------------------- ---------------------
 
--   ------------------------------ ----------------
-      **Designer of a Trader Bot**              *QDM*
-      *04/2019 - 01/2020*              *Tehran, Iran*
+    Presented **an Introduction to Reinforcement Learning** at Aras
+    Academy's 2021 summer school, basing the syllabus on Sutton's book,
+    \"Reinforcement Learning: An Introduction.\"
+
+-   ------------------------------ ---------------------
+      **Designer of a Trader Bot**     *04/2019 - 01/2020*
+      *QDM*                                 *Tehran, Iran*
                                      
-      ------------------------------ ----------------
+      ------------------------------ ---------------------
 
     Engineered a Metatrader trading bot with a technical strategy,
     incorporating a **Deep Q Network** in **PyTorch**. Utilized a socket
@@ -93,55 +130,22 @@
     and this [ Github
     repo](https://github.com/rezakarbasi/RL-agent-trader).
 
--   --------------------- ----------------------------------------------------------
-      **Instructor**          *[ Aras Academy](https://aras.kntu.ac.ir/aras-academy/)*
-      *06/2021 - 09/2021*                                               *Tehran, Iran*
-                            
-      --------------------- ----------------------------------------------------------
+-   ---------------------------------------------------------------------------- ---------------------
+      **Embedded System Engineer**                                                   *12/2017 - 06/2019*
+      *[ Raiwan](https://www.linkedin.com/company/raiwan/?originalSubdomain=ir)*          *Tehran, Iran*
+                                                                                   
+      ---------------------------------------------------------------------------- ---------------------
 
-    Presented **an Introduction to Reinforcement Learning** at Aras
-    Academy's 2021 summer school, basing the syllabus on Sutton's book,
-    \"Reinforcement Learning: An Introduction.\"
+    Developed **Inner Hospital Communication** boards using **STM32 F1**
+    microcontrollers, integrating audio signal transmission via
+    **RS485** protocol. Implemented audio recording and playback
+    functionalities. Deployed in 2+ hospitals, facilitating real-time
+    communication between nurses and patients.
 
--   ------------------------------ ----------------------------------------------------------------------------
-      **Embedded System Engineer**     *[ Raiwan](https://www.linkedin.com/company/raiwan/?originalSubdomain=ir)*
-      *12/2017 - 06/2019*                                                                          *Tehran, Iran*
-                                     
-      ------------------------------ ----------------------------------------------------------------------------
-
-    -   Developed **Inner Hospital Communication** boards with **STM32
-        F1** microcontrollers, incorporating audio signal transportation
-        via **RS485** protocol, and implemented audio recording and
-        playback on digital boards. Enabled efficient real-time
-        communication between nurses and patients, successfully deployed
-        in over 2 hospitals.
-
-    -   Designed **Taxi Payment Device** frame via CNC and worked on the
-        device's **ESP32** integration.
-
--   ------------------------ ------------------------------------------------------
-      **Robotic Researcher**     *[ KN2C Robotic Lab](https://aras.kntu.ac.ir/kn2c/)*
-      *05/2015 - 09/2017*                                              *Tehran, Iran*
-                               
-      ------------------------ ------------------------------------------------------
-
-    -   Led the electronics team in KN2C's SSL, enhancing robot
-        performance by designing, soldering, and maintaining Xmega and
-        ST processor boards for motor control and precise **PID**
-        calibration. Fostered collaboration with mechanical and software
-        teams to integrate system improvements.
-
-    -   Boosted ball detection precision by implementing a **Kalman
-        Filter** in **C++**, leveraging the Armadillo library.
-
-    -   Crafted a real-time GUI in C# using Visual Studio for
-        simultaneous condition monitoring of all robots, enhancing
-        strategic decision-making.
-
--   ----------------------------------------------------- --
-      **Teaching Assistant**                                
-      *I served as a Teaching Assistant in some courses:*   
-      ----------------------------------------------------- --
+-   --------------------------------------------------- --
+      **Teaching Assistant**                              
+      *served as a Teaching Assistant in some courses:*   
+      --------------------------------------------------- --
 
     -    **Deep Neural Networks**: *Spring 2022*, working with [ Dr.
         Reshad Hosseini](https://ece.ut.ac.ir/en/~reshad.hosseini)
@@ -158,12 +162,19 @@
 
 # Notable Projects
 
+-   Localized Anki robot in a **Gazebo** environment using **particle
+    filter** and **EKF** algorithms.
+
 -   Dockerized a **face recognition system** in videos using **Flask**
     and **deepface** library for identifying individuals by comparing
     faces with reference images, handling video processing, face
     embedding, matching, and output generation for applications like
     surveillance. [ Project
     link](https://github.com/rezakarbasi/facerecognition).
+
+-   Implemented an Adaptive Neuro-Fuzzy Inference System (**ANFIS**)
+    algorithm in **Pytorch** for EEG signal classification, facilitating
+    video game control through brain activity.
 
 -   Led the web crawling of the [ Soroush app](https://splus.ir/) for
     the Big Data Course's final project, utilizing **Selenium** for data
@@ -172,139 +183,56 @@
     housed in our [ GitHub
     repository](https://github.com/rezakarbasi/BigDataCourse-FinalBS).
 
--   Applied an image captioning application using **Resnet18** and
-    **LSTM** models in **PyTorch**.
-
--   Localized Anki robot in a **Gazebo** environment using **particle
-    filter** and **EKF** algorithms.
-
 -   Led sentiment analysis of mobile phone reviews on Digikala for a
     Social Network course project, developing a metric to quantify
     device opinions. Spearheaded website crawling with **Selenium** and
     crafted the analysis network. Code available in [ this
     repository](https://github.com/rezakarbasi/Digikala-Spider).
 
--   Implemented an Adaptive Neuro-Fuzzy Inference System (**ANFIS**)
-    algorithm in **Pytorch** for EEG signal classification, facilitating
-    video game control through brain activity.
-
--   Developed a gym environment with a Deep RL **A3C** agent to optimize
-    station power settings and maximize coverage area while minimizing
-    conflicts.
-
--   Conducted a comprehensive data analysis on surgical outcomes for
-    various medical centers and procedures. Assessed performance,
-    compared surgery types, and provided insights to enhance medical
-    service quality.
-
--   In this project, we aimed to implement the encoder part of a
-    **transformer** network and use it for a translation application
-    (English to Persian). This was one of the projects of the Deep
-    Learning course.
-
--   In this project, we aimed to predict accurate acceleration,
-    velocity, and position values using GPS and an accelerometer. We
-    implemented a **Kalman Filter** to filter the sensor values and
-    estimate the device's velocity. I used an **Arduino DUE** to collect
-    the data and applied the filter in **MATLAB**. This project was the
-    final assignment of the Instrumentation course.
-
--   I implemented a Luenberger observer observer and an state feedback
-    controller in **Matlab** for the modern control course.
-
--   In this project, we aimed to implement a SegNet neural network for
-    **semantic segmentation**. This was one of the projects of the Deep
-    Learning course.
-
-# Honors & Certificates
-
-::: itemize
-**The National University Entrance Exam for M.Sc. degree in AI:** Ranked
-28th(top 0.2%)\
-**National University Entrance Exams in Mathematics:** Ranked 888th(top
-0.7%)\
-**Iran Open RoboCup:** Ranked 5th in 2016's Small Sized League (SSL)\
-**Snake League:** Ranked 3rd in 2019's Snake League in Nasir Cup\
-**Certificate in Database Principles and SQL Server:** [ Link to the
-certificate](https://maktabkhooneh.org/certificates/MK-O1USZA/?print=True)\
-**Certificate in Django Web Framework:** [ Link to the
-certificate](https://www.coursera.org/account/accomplishments/verify/ZZDP44XE9B4G)
-:::
+-   Implemented a **Luenberger observer** and **state feedback**
+    controller in **MATLAB** for the Modern Control course.
 
 # Skills
 
 ::: itemize
+**Languages** English(Toefl score: 99/120), Persian: Native\
+
 **Programming** Python(Advanced), C(Advanced), C++(Intermediate),
-Matlab(Intermediate), Java(Intermediate)\
+Matlab(Intermediate)\
 
 **Frameworks** Pytorch(Advanced), Tensorflow(Advanced), MLflow
-(Intermediate), ROS (Familiar), Simulink(Familiar)\
+(Intermediate), ROS2 (Familiar), Simulink(Familiar)\
 
-**Libraries** Numpy, Pandas, Matplotlib, Plotly, Selenium, OpenCV\
+**Libraries** Numpy, Pandas, Matplotlib, OpenCV\
 
 **Hardware** Keil, Stm32Cube, ARM, XMega, Arduino, Altium, Soldering\
 
-**Databases** SQL, InfluxDB, MongoDB\
-
-**Misc** Git, Linux, Docker, Software Testing, GTest , Bash Scripting,
-REST API, Confluence, Jira, Django\
+**Misc** Git, Linux, Docker, Software Testing, GTest, PyTest, Bash
+Scripting, REST API\
 :::
 
-# Education
+# Honors & Certificates
 
--   ----------------------------------------------------------------- -------------------------
-      **University of Tehran**                                                       Tehran, Iran
-      *MS in Artificial Intelligence and Robotics; **GPA: 18.86/20***     *Sep. 2019 - Jan. 2022*
-      ----------------------------------------------------------------- -------------------------
-
-    -    Thesis: [ An earthquake early warning system using smartphones
-        as sensors](https://github.com/rezakarbasi/EEW_simulator)
-
-    -    Supervisors: [ Prof. Hadi
-        Moradi](https://ece.ut.ac.ir/en/~moradih), [ Dr. Mahmoud Reza
-        Hashemi](https://ece.ut.ac.ir/en/~rhashemi), [ Dr. Ali
-        Moradi](https://profile.ut.ac.ir/en/~asmoradi)
-
-    -    Notable Courses: Deep Neural Network in Speech signals and
-        Machine Vision, Reinforcement Learning, Big Data, Data Analysis,
-        Artificial Intelligence
-
--   --------------------------------------------------------------------------------- -------------------------
-      **K. N. Toosi University of Technology**                                                       Tehran, Iran
-      *BS in Electrical Engineering (major in Control Engineering); **GPA: 17.4/20***     *Sep. 2014 - Jan. 2019*
-      --------------------------------------------------------------------------------- -------------------------
-
-    -    Thesis: Fault detection in gas turbine
-
-    -    Supervisor : [ Dr. Mahdi
-        Aliyari](https://wp.kntu.ac.ir/aliyari/)
-
-    -    Notable Courses: Pattern Recognition, Digital Control, Signal
-        and Systems
+::: itemize
+**Iran Open RoboCup:** Ranked 5th in 2016's Small Sized League (SSL)\
+**Snake League:** Ranked 3rd in 2019's Snake League in Nasir Cup\
+**The National University Entrance Exam for M.Sc. degree in AI:** Ranked
+28th(top 0.2%)\
+**National University Entrance Exams in Mathematics:** Ranked 888th(top
+0.7%)
+:::
 
 # References
 
 ::: itemize
-**[ Dr. Mahdi Aliyari-Shoorehdeli](https://wp.kntu.ac.ir/aliyari/)**
-Associate Professor, Control and Mechatronics Engineering, K. N. Toosi
-University of Technology, Tehran, Iran\
-Email: aliyari@kntu.ac.ir\
 **[ Dr. Reshad Hosseini](https://ece.ut.ac.ir/en/~reshad.hosseini)**
 Assistant Professor, Department of Electrical and Computer Engineering,
 Cofouder of Hara AI company, UT, Tehran, Iran\
 Email: reshad.hosseini@ut.ac.ir\
-**[ Dr. Hadi Moradi](https://ece.ut.ac.ir/en/~moradih)** Professor,
-Department of Electrical and Computer Engineering, UT, Tehran, Iran\
-Email: moradih@ut.ac.ir\
 **[ Dr. Ali Moradi](https://profile.ut.ac.ir/en/~asmoradi)** Associate
 Professor, Institute of Geophysics, UT, Tehran, Iran\
 Email: asmoradi@ut.ac.ir\
-**[ Dr. Hamid Abrishami Moghaddam](https://wp.kntu.ac.ir/moghaddam/)**
-Professor, Department of Electrical and Computer Engineering, K. N.
-Toosi University of Technology, Tehran, Iran\
-Email: moghaddam@kntu.ac.ir\
-**[ Dr. Hamid D. Taghirad](https://aras.kntu.ac.ir/taghirad/)**
-Professor, Department of Electrical and Computer Engineering, K. N.
-Toosi University of Technology, Tehran, Iran\
-Email: taghirad@kntu.ac.ir\
+**[ Dr. Hadi Moradi](https://ece.ut.ac.ir/en/~moradih)** Professor,
+Department of Electrical and Computer Engineering, UT, Tehran, Iran\
+Email: moradih@ut.ac.ir\
 :::
